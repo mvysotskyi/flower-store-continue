@@ -64,6 +64,14 @@
 					</excludes>
 				</configuration>
 			</plugin>
+			<plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-checkstyle-plugin</artifactId>
+                <version>3.3.0</version>
+                <configuration>
+                    <configLocation>.github/linters/checkstyle.xml</configLocation>
+                </configuration>
+            </plugin>
 		</plugins>
 	</build>
 
